@@ -10,15 +10,26 @@ UserModal.init({
         primaryKey: true,
         autoIncrement: true
     },
-    name: {
+    // todo user_role
+
+    nickname: {
         type: DataTypes.STRING,
         allowNull: false
     },
-    email: {
-        type: DataTypes.STRING,
+
+    // todo the_best_drop
+
+    balance: {
+        type: DataTypes.ШТzz,
         allowNull: false,
-        unique: true
+        defaultValue: 0
     },
+
+    nickname: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
+
     password: {
         type: DataTypes.STRING,
         allowNull: false
